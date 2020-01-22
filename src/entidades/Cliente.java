@@ -49,7 +49,11 @@ public class Cliente {
 	public void setEnderecoDoCliente(String enderecoDoCliente) {
 		this.enderecoDoCliente = enderecoDoCliente;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Cliente [nomeDoCliente=" + nomeDoCliente + ", emailDoCliente=" + emailDoCliente + ", enderecoDoCliente="
+				+ enderecoDoCliente + "]";
+	}
 
 }
